@@ -1,6 +1,9 @@
 # Composable をドラッグ操作してみたい！
 ## アプリの概要
 ドラッグできるコンポーザブルが2つ並んでいるだけです。
+
+![image](https://github.com/dennoko/DragComposable/assets/145789995/d6b61455-6642-438e-a607-b682ee49a400)
+
 こちらにComposableを動かすコードの実装について軽く書いてあります。
 https://charm-course-2f9.notion.site/Composable-c62eeee884c84f3fb38a17b1f5d09ae4?pvs=4
 
