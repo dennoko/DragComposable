@@ -8,5 +8,6 @@ Drag Me1 は Text の modifier で直接動かせるようにしたもの、Drag
 
 # 作った感想
 案外簡単に実装出来ましたね...
+いろいろ試す中で Jetpack に対する理解が少し深まりました。
 Composable を動かすついでに MaterialTheme についても触ってみたのですが、ちゃんと rightTheme と darkTheme でアプリのコンポーネントの色が変わるのはいいですね。
 今後はちゃんとこの機能を使っていこうと思います。
