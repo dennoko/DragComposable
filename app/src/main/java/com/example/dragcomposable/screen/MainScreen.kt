@@ -1,12 +1,16 @@
 package com.example.dragcomposable.screen
 
 import androidx.compose.foundation.layout.Column
-import androidx.compose.material3.Button
-import androidx.compose.material3.Text
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.height
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
-import com.example.dragcomposable.drag_components.DraggableComponent
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.unit.dp
+import com.example.dragcomposable.drag_components.DragMe
+import com.example.dragcomposable.drag_components.DragMe2
 import com.example.dragcomposable.ui_components.TitleTxt
+import com.example.dragcomposable.ui_components.Yoshi
 
 @Composable
 fun MainScreen() {
@@ -14,10 +18,13 @@ fun MainScreen() {
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         TitleTxt(txt = "Drag Composable")
-        DraggableComponent {
-            Button(onClick = { /*TODO*/ }) {
-                Text(text = "Drag Me")
-            }
+
+        Spacer(modifier = Modifier.height(16.dp))
+        DragMe()
+
+        Spacer(modifier = Modifier.height(16.dp))
+        DragMe2 {
+            Yoshi()
         }
     }
 }
