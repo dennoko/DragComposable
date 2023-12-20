@@ -26,7 +26,7 @@ fun Yoshi() {
     OutlinedCard {
         Column(horizontalAlignment = Alignment.CenterHorizontally) {
             Text(
-                text = "Drag Me2",
+                text = "Drag Me 2",
                 textAlign = TextAlign.Center,
                 color = MaterialTheme.colorScheme.onPrimary,
                 modifier = Modifier
